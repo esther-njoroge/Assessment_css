@@ -1,0 +1,103 @@
+#nav{
+    display: flex;
+    gap: 10%;
+}
+#header{
+    display: flex;
+    gap: 3%;
+    background-color: rgb(113, 189, 113);
+}
+#part1{
+    display: flex;
+    gap: 30%;
+}
+.part2{
+    display: flex;
+    gap: 30%;
+    margin-top: 5%;
+}
+#part2i{
+    display: flex;
+    gap: 20%;
+}
+#part3{
+    display: flex;
+    /* gap: 4%; */
+    margin-top: 5%;
+}
+.hat{
+    margin-right: 120px;
+}
+#part4{
+    display: flex;
+    gap: 10%;
+    margin-top: 5%;
+}
+#part5{
+    display: flex;
+    margin-top: 5%;
+    gap: 10%;
+}
+#part6{
+    display: flex;
+    gap: 8%;
+    margin-top: 5%;
+}
+#footer{
+    display: flex;
+    gap: 15%;
+    margin-top: 5%;
+}
+
+@media only screen and(min-width: 390px){
+    #nav{
+        flex-wrap: wrap;
+        gap: 3%;
+    }
+    #header{
+        flex-wrap: wrap;
+        gap: 3%;
+        background-color: rgb(113, 189, 113);
+    }
+    #part1{
+        gap: 2%;
+        flex-wrap: wrap;
+    }
+    .part2{
+        gap: 2%;
+        margin-top: 5%;
+        flex-wrap: wrap;
+    }
+    #part2i{
+        gap: 10%;
+        flex-wrap: wrap;
+    }
+    #part3{
+        /* gap: 4%; */
+        margin-top: 5%;
+        flex-wrap: wrap;
+    }
+    .hat{
+        margin-right: 120px;
+    }
+    #part4{
+        flex-wrap: wrap;
+        gap: 10%;
+        margin-top: 5%;
+    }
+    #part5{
+        margin-top: 5%;
+        gap: 10%;
+        flex-wrap: wrap;
+
+    }
+    #part6{
+        flex-wrap: wrap;
+        gap: 8%;
+        margin-top: 5%;
+    }
+    #footer{
+        display: flex;
+        gap: 10%;
+        margin-top: 5%;
+    }
